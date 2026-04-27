@@ -62,7 +62,7 @@ ENV/
 1_factor_request/factor_generation/output/
 1_factor_request/factor_generation/*/output/
 2_factor_orthogonalization/output/
-visualization/output/
+
 
 # Optional: generated figures at repo root
 *.png

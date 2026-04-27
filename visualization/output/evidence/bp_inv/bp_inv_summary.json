@@ -1,0 +1,22 @@
+{
+  "factor": "bp_inv",
+  "date_range": {
+    "start": "20230101",
+    "end": "20231231"
+  },
+  "rows_total": 72600,
+  "raw_non_null": 72600,
+  "proc_non_null": 72600,
+  "median_abs_change": 0.5606326016968932,
+  "mean_abs_change": 0.7442364783753638,
+  "corr_ln_mv_abs_mean_raw": 0.21400464900423194,
+  "corr_ln_mv_abs_mean_proc": 0.02054702793546396,
+  "industry_dispersion_mean_raw": 0.7914435274012093,
+  "industry_dispersion_mean_proc": 0.1885418570480885,
+  "figures": [
+    "E:\\Goldman Sachs\\20260426_mission\\Factor Mining\\visualization\\output\\evidence\\bp_inv\\bp_inv_01_delta_amplitude.png",
+    "E:\\Goldman Sachs\\20260426_mission\\Factor Mining\\visualization\\output\\evidence\\bp_inv\\bp_inv_02_distribution_compare.png",
+    "E:\\Goldman Sachs\\20260426_mission\\Factor Mining\\visualization\\output\\evidence\\bp_inv\\bp_inv_03_processed_standardization_check.png",
+    "E:\\Goldman Sachs\\20260426_mission\\Factor Mining\\visualization\\output\\evidence\\bp_inv\\bp_inv_04_neutralization_effect.png"
+  ]
+}

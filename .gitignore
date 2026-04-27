@@ -65,8 +65,4 @@ ENV/
 
 
 # Optional: generated figures at repo root
-*.png
-*.jpg
-*.jpeg
-*.svg
-*.pdf
+

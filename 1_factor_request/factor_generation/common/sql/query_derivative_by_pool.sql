@@ -1,0 +1,9 @@
+SELECT
+    d.S_INFO_WINDCODE AS stock_code,
+    d.TRADE_DT AS trade_date,
+    d.S_DQ_TURN AS turn_d,
+    d.S_DQ_FREETURNOVER AS turn_float_d
+FROM dbo.ASHAREEODDERIVATIVEINDICATOR d
+WHERE d.TRADE_DT BETWEEN ? AND ?
+  AND d.S_INFO_WINDCODE IN ({stock_code_placeholders})
+ORDER BY d.S_INFO_WINDCODE, d.TRADE_DT;

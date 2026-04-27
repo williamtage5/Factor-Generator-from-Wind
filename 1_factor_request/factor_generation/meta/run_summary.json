@@ -1,0 +1,236 @@
+{
+  "run_started_at": "2026-04-19 18:54:02",
+  "start_date": "20230101",
+  "end_date": "20231231",
+  "fin_use_tplus1": true,
+  "panel_rows": 472199,
+  "panel_days": 1600,
+  "panel_codes": 323,
+  "panel_target_days": 242,
+  "factors": {
+    "halpha_60m": {
+      "factor_kind": "momentum",
+      "window": 60,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 12004,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\halpha_60m\\output\\daily"
+    },
+    "return_1m": {
+      "factor_kind": "momentum",
+      "window": 20,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\return_1m\\output\\daily"
+    },
+    "return_3m": {
+      "factor_kind": "momentum",
+      "window": 60,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\return_3m\\output\\daily"
+    },
+    "return_6m": {
+      "factor_kind": "momentum",
+      "window": 120,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\return_6m\\output\\daily"
+    },
+    "return_12m": {
+      "factor_kind": "momentum",
+      "window": 240,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 13,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\return_12m\\output\\daily"
+    },
+    "wgt_return_1m": {
+      "factor_kind": "momentum",
+      "window": 20,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\wgt_return_1m\\output\\daily"
+    },
+    "wgt_return_3m": {
+      "factor_kind": "momentum",
+      "window": 60,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\wgt_return_3m\\output\\daily"
+    },
+    "wgt_return_6m": {
+      "factor_kind": "momentum",
+      "window": 120,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\wgt_return_6m\\output\\daily"
+    },
+    "wgt_return_12m": {
+      "factor_kind": "momentum",
+      "window": 240,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 13,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\wgt_return_12m\\output\\daily"
+    },
+    "exp_wgt_return_1m": {
+      "factor_kind": "momentum",
+      "window": 20,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\exp_wgt_return_1m\\output\\daily"
+    },
+    "exp_wgt_return_3m": {
+      "factor_kind": "momentum",
+      "window": 60,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\exp_wgt_return_3m\\output\\daily"
+    },
+    "exp_wgt_return_6m": {
+      "factor_kind": "momentum",
+      "window": 120,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\exp_wgt_return_6m\\output\\daily"
+    },
+    "exp_wgt_return_12m": {
+      "factor_kind": "momentum",
+      "window": 240,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 12,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\exp_wgt_return_12m\\output\\daily"
+    },
+    "momentum_5": {
+      "factor_kind": "rolling",
+      "window": 5,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\momentum_5\\output\\daily"
+    },
+    "momentum_20": {
+      "factor_kind": "rolling",
+      "window": 20,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\momentum_20\\output\\daily"
+    },
+    "momentum_60": {
+      "factor_kind": "rolling",
+      "window": 60,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\momentum_60\\output\\daily"
+    },
+    "reversal_5": {
+      "factor_kind": "rolling",
+      "window": 5,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\reversal_5\\output\\daily"
+    },
+    "volatility_20": {
+      "factor_kind": "rolling",
+      "window": 20,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\volatility_20\\output\\daily"
+    },
+    "downside_vol_20": {
+      "factor_kind": "rolling",
+      "window": 20,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\downside_vol_20\\output\\daily"
+    },
+    "drawdown_20": {
+      "factor_kind": "rolling",
+      "window": 20,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\drawdown_20\\output\\daily"
+    },
+    "turnover_proxy_20": {
+      "factor_kind": "rolling",
+      "window": 20,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\turnover_proxy_20\\output\\daily"
+    },
+    "illiq_20": {
+      "factor_kind": "rolling",
+      "window": 20,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\illiq_20\\output\\daily"
+    },
+    "roe": {
+      "factor_kind": "fundamental",
+      "window": 0,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\roe\\output\\daily"
+    },
+    "size_log_mcap": {
+      "factor_kind": "cross_section",
+      "window": 0,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\size_log_mcap\\output\\daily"
+    },
+    "ep_ttm": {
+      "factor_kind": "cross_section",
+      "window": 0,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\ep_ttm\\output\\daily"
+    },
+    "bp_inv": {
+      "factor_kind": "cross_section",
+      "window": 0,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\bp_inv\\output\\daily"
+    },
+    "revenue_yoy": {
+      "factor_kind": "fundamental",
+      "window": 0,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\revenue_yoy\\output\\daily"
+    },
+    "netprofit_yoy": {
+      "factor_kind": "fundamental",
+      "window": 0,
+      "files_written": 242,
+      "rows_written": 72600,
+      "missing_written": 0,
+      "output_dir": "E:\\Goldman Sachs\\20260419_mission\\Data_Request\\factor_generation\\netprofit_yoy\\output\\daily"
+    }
+  }
+}

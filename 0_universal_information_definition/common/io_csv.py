@@ -1,0 +1,17 @@
+from __future__ import annotations
+
+from pathlib import Path
+
+import pandas as pd
+
+
+def write_csv(df: pd.DataFrame, path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    df.to_csv(path, index=False, encoding="utf-8-sig")
+
+
+def clean_csv_dir(path: Path) -> None:
+    path.mkdir(parents=True, exist_ok=True)
+    for old_csv in path.glob("*.csv"):
+        old_csv.unlink()
+

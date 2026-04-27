@@ -1,0 +1,72 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# =========================
+# Python cache / build
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Virtual env
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+*.tmp
+*.temp
+*.bak
+
+# =========================
+# Data artifacts
+# =========================
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.db
+*.sqlite
+
+# =========================
+# Project outputs
+# =========================
+0_universal_information_definition/outputs/
+1_factor_request/factor_generation/output/
+1_factor_request/factor_generation/*/output/
+2_factor_orthogonalization/output/
+visualization/output/
+
+# Optional: generated figures at repo root
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf

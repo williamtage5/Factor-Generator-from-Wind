@@ -1,0 +1,12 @@
+SELECT
+    p.S_INFO_WINDCODE AS stock_code,
+    p.TRADE_DT AS trade_date,
+    p.S_DQ_ADJCLOSE AS close_price,
+    i.S_DQ_CLOSE AS index_close
+FROM dbo.ASHAREEODPRICES p
+LEFT JOIN dbo.AINDEXEODPRICES i
+  ON i.TRADE_DT = p.TRADE_DT
+ AND i.S_INFO_WINDCODE = ?
+WHERE p.TRADE_DT BETWEEN ? AND ?
+  AND p.S_INFO_WINDCODE IN ({stock_code_placeholders})
+ORDER BY p.S_INFO_WINDCODE, p.TRADE_DT;

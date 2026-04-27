@@ -1,0 +1,8 @@
+SELECT
+    i.S_INFO_WINDCODE AS index_code,
+    i.TRADE_DT AS trade_date,
+    i.S_DQ_CLOSE AS close_price
+FROM dbo.AINDEXEODPRICES i
+WHERE i.S_INFO_WINDCODE = ?
+  AND i.TRADE_DT BETWEEN ? AND ?
+ORDER BY i.TRADE_DT;
